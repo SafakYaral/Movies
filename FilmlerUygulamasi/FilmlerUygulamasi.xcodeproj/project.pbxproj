@@ -1,0 +1,484 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		793D67C029A21DFF00EF0937 /* AnasayfaViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793D67BF29A21DFF00EF0937 /* AnasayfaViewModel.swift */; };
+		793D67C229A21E1F00EF0937 /* FilmSayfaViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793D67C129A21E1F00EF0937 /* FilmSayfaViewModel.swift */; };
+		79CAC865299FC56D005FF5AD /* FilmlerUygulamasiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79CAC864299FC56D005FF5AD /* FilmlerUygulamasiApp.swift */; };
+		79CAC867299FC56D005FF5AD /* FilmSayfa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79CAC866299FC56D005FF5AD /* FilmSayfa.swift */; };
+		79CAC869299FC56E005FF5AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79CAC868299FC56E005FF5AD /* Assets.xcassets */; };
+		79CAC86C299FC56E005FF5AD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79CAC86B299FC56E005FF5AD /* Preview Assets.xcassets */; };
+		79CAC873299FC5FF005FF5AD /* Kategoriler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79CAC872299FC5FF005FF5AD /* Kategoriler.swift */; };
+		79CAC875299FC699005FF5AD /* Yonetmenler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79CAC874299FC699005FF5AD /* Yonetmenler.swift */; };
+		79CAC877299FC6EB005FF5AD /* Filmler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79CAC876299FC6EB005FF5AD /* Filmler.swift */; };
+		79CAC879299FC780005FF5AD /* FilmItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79CAC878299FC780005FF5AD /* FilmItem.swift */; };
+		79CAC87B299FCB6A005FF5AD /* DetaySayfa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79CAC87A299FCB6A005FF5AD /* DetaySayfa.swift */; };
+		79CAC885299FDDBD005FF5AD /* KategoriItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79CAC884299FDDBD005FF5AD /* KategoriItem.swift */; };
+		79CAC887299FDE11005FF5AD /* Anasayfa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79CAC886299FDE11005FF5AD /* Anasayfa.swift */; };
+		7F9EA46F2DDF19480052BD44 /* filmler.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 7F9EA46E2DDF19480052BD44 /* filmler.sqlite */; };
+		7F9EA47D2DDF19910052BD44 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F9EA47C2DDF19910052BD44 /* FMResultSet.m */; };
+		7F9EA47E2DDF19910052BD44 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F9EA4732DDF19910052BD44 /* FMDatabase.m */; };
+		7F9EA47F2DDF19910052BD44 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F9EA4772DDF19910052BD44 /* FMDatabasePool.m */; };
+		7F9EA4802DDF19910052BD44 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F9EA4792DDF19910052BD44 /* FMDatabaseQueue.m */; };
+		7F9EA4812DDF19910052BD44 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F9EA4752DDF19910052BD44 /* FMDatabaseAdditions.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		793D67BF29A21DFF00EF0937 /* AnasayfaViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnasayfaViewModel.swift; sourceTree = "<group>"; };
+		793D67C129A21E1F00EF0937 /* FilmSayfaViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmSayfaViewModel.swift; sourceTree = "<group>"; };
+		79CAC861299FC56D005FF5AD /* FilmlerUygulamasi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FilmlerUygulamasi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		79CAC864299FC56D005FF5AD /* FilmlerUygulamasiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmlerUygulamasiApp.swift; sourceTree = "<group>"; };
+		79CAC866299FC56D005FF5AD /* FilmSayfa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmSayfa.swift; sourceTree = "<group>"; };
+		79CAC868299FC56E005FF5AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		79CAC86B299FC56E005FF5AD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		79CAC872299FC5FF005FF5AD /* Kategoriler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kategoriler.swift; sourceTree = "<group>"; };
+		79CAC874299FC699005FF5AD /* Yonetmenler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Yonetmenler.swift; sourceTree = "<group>"; };
+		79CAC876299FC6EB005FF5AD /* Filmler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Filmler.swift; sourceTree = "<group>"; };
+		79CAC878299FC780005FF5AD /* FilmItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmItem.swift; sourceTree = "<group>"; };
+		79CAC87A299FCB6A005FF5AD /* DetaySayfa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetaySayfa.swift; sourceTree = "<group>"; };
+		79CAC884299FDDBD005FF5AD /* KategoriItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KategoriItem.swift; sourceTree = "<group>"; };
+		79CAC886299FDE11005FF5AD /* Anasayfa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Anasayfa.swift; sourceTree = "<group>"; };
+		7F9EA46E2DDF19480052BD44 /* filmler.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = filmler.sqlite; sourceTree = "<group>"; };
+		7F9EA4712DDF19760052BD44 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		7F9EA4722DDF19910052BD44 /* FMDatabase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		7F9EA4732DDF19910052BD44 /* FMDatabase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		7F9EA4742DDF19910052BD44 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		7F9EA4752DDF19910052BD44 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		7F9EA4762DDF19910052BD44 /* FMDatabasePool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		7F9EA4772DDF19910052BD44 /* FMDatabasePool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		7F9EA4782DDF19910052BD44 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		7F9EA4792DDF19910052BD44 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		7F9EA47A2DDF19910052BD44 /* FMDB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		7F9EA47B2DDF19910052BD44 /* FMResultSet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		7F9EA47C2DDF19910052BD44 /* FMResultSet.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		7F9EA4822DDF19A30052BD44 /* FilmlerUygulamasi-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FilmlerUygulamasi-Bridging-Header.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		79CAC85E299FC56D005FF5AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		793D67B929A21D1B00EF0937 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				793D67BA29A21D2200EF0937 /* entity */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		793D67BA29A21D2200EF0937 /* entity */ = {
+			isa = PBXGroup;
+			children = (
+				79CAC872299FC5FF005FF5AD /* Kategoriler.swift */,
+				79CAC874299FC699005FF5AD /* Yonetmenler.swift */,
+				79CAC876299FC6EB005FF5AD /* Filmler.swift */,
+			);
+			path = entity;
+			sourceTree = "<group>";
+		};
+		793D67BB29A21D3A00EF0937 /* ui */ = {
+			isa = PBXGroup;
+			children = (
+				793D67BE29A21DED00EF0937 /* viewmodel */,
+				793D67BD29A21D8400EF0937 /* view */,
+				793D67BC29A21D4900EF0937 /* list */,
+			);
+			path = ui;
+			sourceTree = "<group>";
+		};
+		793D67BC29A21D4900EF0937 /* list */ = {
+			isa = PBXGroup;
+			children = (
+				79CAC878299FC780005FF5AD /* FilmItem.swift */,
+				79CAC884299FDDBD005FF5AD /* KategoriItem.swift */,
+			);
+			path = list;
+			sourceTree = "<group>";
+		};
+		793D67BD29A21D8400EF0937 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				79CAC866299FC56D005FF5AD /* FilmSayfa.swift */,
+				79CAC87A299FCB6A005FF5AD /* DetaySayfa.swift */,
+				79CAC886299FDE11005FF5AD /* Anasayfa.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		793D67BE29A21DED00EF0937 /* viewmodel */ = {
+			isa = PBXGroup;
+			children = (
+				793D67BF29A21DFF00EF0937 /* AnasayfaViewModel.swift */,
+				793D67C129A21E1F00EF0937 /* FilmSayfaViewModel.swift */,
+			);
+			path = viewmodel;
+			sourceTree = "<group>";
+		};
+		79CAC858299FC56D005FF5AD = {
+			isa = PBXGroup;
+			children = (
+				79CAC863299FC56D005FF5AD /* FilmlerUygulamasi */,
+				7F9EA4702DDF19760052BD44 /* Frameworks */,
+				79CAC862299FC56D005FF5AD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		79CAC862299FC56D005FF5AD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				79CAC861299FC56D005FF5AD /* FilmlerUygulamasi.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		79CAC863299FC56D005FF5AD /* FilmlerUygulamasi */ = {
+			isa = PBXGroup;
+			children = (
+				79CAC864299FC56D005FF5AD /* FilmlerUygulamasiApp.swift */,
+				793D67BB29A21D3A00EF0937 /* ui */,
+				793D67B929A21D1B00EF0937 /* data */,
+				79CAC868299FC56E005FF5AD /* Assets.xcassets */,
+				7F9EA46E2DDF19480052BD44 /* filmler.sqlite */,
+				7F9EA4722DDF19910052BD44 /* FMDatabase.h */,
+				7F9EA4732DDF19910052BD44 /* FMDatabase.m */,
+				7F9EA4742DDF19910052BD44 /* FMDatabaseAdditions.h */,
+				7F9EA4752DDF19910052BD44 /* FMDatabaseAdditions.m */,
+				7F9EA4762DDF19910052BD44 /* FMDatabasePool.h */,
+				7F9EA4772DDF19910052BD44 /* FMDatabasePool.m */,
+				7F9EA4782DDF19910052BD44 /* FMDatabaseQueue.h */,
+				7F9EA4792DDF19910052BD44 /* FMDatabaseQueue.m */,
+				7F9EA47A2DDF19910052BD44 /* FMDB.h */,
+				7F9EA47B2DDF19910052BD44 /* FMResultSet.h */,
+				7F9EA47C2DDF19910052BD44 /* FMResultSet.m */,
+				79CAC86A299FC56E005FF5AD /* Preview Content */,
+				7F9EA4822DDF19A30052BD44 /* FilmlerUygulamasi-Bridging-Header.h */,
+			);
+			path = FilmlerUygulamasi;
+			sourceTree = "<group>";
+		};
+		79CAC86A299FC56E005FF5AD /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				79CAC86B299FC56E005FF5AD /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7F9EA4702DDF19760052BD44 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7F9EA4712DDF19760052BD44 /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		79CAC860299FC56D005FF5AD /* FilmlerUygulamasi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79CAC86F299FC56E005FF5AD /* Build configuration list for PBXNativeTarget "FilmlerUygulamasi" */;
+			buildPhases = (
+				79CAC85D299FC56D005FF5AD /* Sources */,
+				79CAC85E299FC56D005FF5AD /* Frameworks */,
+				79CAC85F299FC56D005FF5AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FilmlerUygulamasi;
+			productName = FilmlerUygulamasi;
+			productReference = 79CAC861299FC56D005FF5AD /* FilmlerUygulamasi.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		79CAC859299FC56D005FF5AD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					79CAC860299FC56D005FF5AD = {
+						CreatedOnToolsVersion = 14.2;
+						LastSwiftMigration = 1630;
+					};
+				};
+			};
+			buildConfigurationList = 79CAC85C299FC56D005FF5AD /* Build configuration list for PBXProject "FilmlerUygulamasi" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 79CAC858299FC56D005FF5AD;
+			productRefGroup = 79CAC862299FC56D005FF5AD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				79CAC860299FC56D005FF5AD /* FilmlerUygulamasi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		79CAC85F299FC56D005FF5AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F9EA46F2DDF19480052BD44 /* filmler.sqlite in Resources */,
+				79CAC86C299FC56E005FF5AD /* Preview Assets.xcassets in Resources */,
+				79CAC869299FC56E005FF5AD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		79CAC85D299FC56D005FF5AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79CAC879299FC780005FF5AD /* FilmItem.swift in Sources */,
+				79CAC873299FC5FF005FF5AD /* Kategoriler.swift in Sources */,
+				7F9EA47D2DDF19910052BD44 /* FMResultSet.m in Sources */,
+				7F9EA47E2DDF19910052BD44 /* FMDatabase.m in Sources */,
+				7F9EA47F2DDF19910052BD44 /* FMDatabasePool.m in Sources */,
+				7F9EA4802DDF19910052BD44 /* FMDatabaseQueue.m in Sources */,
+				7F9EA4812DDF19910052BD44 /* FMDatabaseAdditions.m in Sources */,
+				79CAC885299FDDBD005FF5AD /* KategoriItem.swift in Sources */,
+				793D67C229A21E1F00EF0937 /* FilmSayfaViewModel.swift in Sources */,
+				79CAC867299FC56D005FF5AD /* FilmSayfa.swift in Sources */,
+				79CAC875299FC699005FF5AD /* Yonetmenler.swift in Sources */,
+				79CAC877299FC6EB005FF5AD /* Filmler.swift in Sources */,
+				793D67C029A21DFF00EF0937 /* AnasayfaViewModel.swift in Sources */,
+				79CAC87B299FCB6A005FF5AD /* DetaySayfa.swift in Sources */,
+				79CAC887299FDE11005FF5AD /* Anasayfa.swift in Sources */,
+				79CAC865299FC56D005FF5AD /* FilmlerUygulamasiApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		79CAC86D299FC56E005FF5AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		79CAC86E299FC56E005FF5AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		79CAC870299FC56E005FF5AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FilmlerUygulamasi/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.info.FilmlerUygulamasi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "FilmlerUygulamasi/FilmlerUygulamasi-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		79CAC871299FC56E005FF5AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FilmlerUygulamasi/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.info.FilmlerUygulamasi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "FilmlerUygulamasi/FilmlerUygulamasi-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		79CAC85C299FC56D005FF5AD /* Build configuration list for PBXProject "FilmlerUygulamasi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79CAC86D299FC56E005FF5AD /* Debug */,
+				79CAC86E299FC56E005FF5AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79CAC86F299FC56E005FF5AD /* Build configuration list for PBXNativeTarget "FilmlerUygulamasi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79CAC870299FC56E005FF5AD /* Debug */,
+				79CAC871299FC56E005FF5AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 79CAC859299FC56D005FF5AD /* Project object */;
+}
